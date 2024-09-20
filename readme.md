@@ -9,5 +9,5 @@
 
 ## Note
 
-I use this for my personal project, you can use it for your project.
-I run project with docker on Windows 11 Home, so if you use Linux or macOS, you may need to change some commands.
+I run projects with docker on Windows 11 Home, so if you use Linux or macOS, you may need to change some commands.
+I run projects with Docker on Windows 11 Home, so if you're using Linux or macOS, you might need to adjust some commands.

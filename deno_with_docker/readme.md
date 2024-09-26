@@ -4,7 +4,7 @@
 To install the Fresh framework, run the following command:
 
 ```bash
-docker run -it --rm -v ${PWD}:/app -w /app denoland/deno:alpine run -A --unstable https://deno.land/x/fresh@1.0.0/init.ts my-fresh-app
+docker run -it --rm -v ${PWD}:/app -w /app denoland/deno:alpine run -A --unstable https://deno.land/x/fresh@1.6.8/init.ts my-fresh-app
 ```
 
 ## Command to Run Fresh Framework After Installation

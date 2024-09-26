@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  fresh:
+    image: denoland/deno:alpine
+    ports:
+      - "8000:8000"           # Map port 8000 in the container to port 8000 on the host
+    volumes:
+      - .:/app                # Mount the current directory to /app in the container
+    working_dir: /app        # Set the working directory in the container to /app
+    command: run -A --watch --unstable main.ts  # Command to run the Fresh application
